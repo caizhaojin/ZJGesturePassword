@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		DE6B0A5D1E9692D1002B6E82 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B0A5C1E9692D1002B6E82 /* DelegateViewController.m */; };
 		DE6B0A601E9692DB002B6E82 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B0A5F1E9692DB002B6E82 /* BlockViewController.m */; };
+		DEAF3F1B1E9A042A00A63E18 /* ZJGesturePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAF3F1A1E9A042A00A63E18 /* ZJGesturePassword.m */; };
 		DECD74571E8E96E000B6B3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECD74561E8E96E000B6B3EC /* main.m */; };
 		DECD745A1E8E96E000B6B3EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DECD74591E8E96E000B6B3EC /* AppDelegate.m */; };
 		DECD74601E8E96E000B6B3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD745E1E8E96E000B6B3EC /* Main.storyboard */; };
 		DECD74621E8E96E000B6B3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECD74611E8E96E000B6B3EC /* Assets.xcassets */; };
 		DECD74651E8E96E000B6B3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD74631E8E96E000B6B3EC /* LaunchScreen.storyboard */; };
-		DECD746F1E8E972D00B6B3EC /* ZJGesturePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = DECD746E1E8E972D00B6B3EC /* ZJGesturePassword.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +22,8 @@
 		DE6B0A5C1E9692D1002B6E82 /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
 		DE6B0A5E1E9692DB002B6E82 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
 		DE6B0A5F1E9692DB002B6E82 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		DEAF3F191E9A042A00A63E18 /* ZJGesturePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJGesturePassword.h; sourceTree = "<group>"; };
+		DEAF3F1A1E9A042A00A63E18 /* ZJGesturePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJGesturePassword.m; sourceTree = "<group>"; };
 		DECD74521E8E96E000B6B3EC /* ZJGesturePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJGesturePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD74561E8E96E000B6B3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DECD74581E8E96E000B6B3EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +32,6 @@
 		DECD74611E8E96E000B6B3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECD74641E8E96E000B6B3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECD74661E8E96E000B6B3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DECD746D1E8E972D00B6B3EC /* ZJGesturePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJGesturePassword.h; sourceTree = "<group>"; };
-		DECD746E1E8E972D00B6B3EC /* ZJGesturePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJGesturePassword.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DEAF3F181E9A042A00A63E18 /* ZJGesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF3F191E9A042A00A63E18 /* ZJGesturePassword.h */,
+				DEAF3F1A1E9A042A00A63E18 /* ZJGesturePassword.m */,
+			);
+			path = ZJGesturePassword;
+			sourceTree = "<group>";
+		};
 		DECD74491E8E96E000B6B3EC = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +73,7 @@
 		DECD74541E8E96E000B6B3EC /* ZJGesturePassword */ = {
 			isa = PBXGroup;
 			children = (
-				DECD746C1E8E971000B6B3EC /* ZJGesturePassword */,
+				DEAF3F181E9A042A00A63E18 /* ZJGesturePassword */,
 				DECD74581E8E96E000B6B3EC /* AppDelegate.h */,
 				DECD74591E8E96E000B6B3EC /* AppDelegate.m */,
 				DE6B0A5B1E9692D1002B6E82 /* DelegateViewController.h */,
@@ -86,16 +95,6 @@
 				DECD74561E8E96E000B6B3EC /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DECD746C1E8E971000B6B3EC /* ZJGesturePassword */ = {
-			isa = PBXGroup;
-			children = (
-				DECD746D1E8E972D00B6B3EC /* ZJGesturePassword.h */,
-				DECD746E1E8E972D00B6B3EC /* ZJGesturePassword.m */,
-			);
-			name = ZJGesturePassword;
-			path = ../../../../Choi/Desktop/ZJGesturePassword/ZJGesturePassword/ZJGesturePassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6B0A601E9692DB002B6E82 /* BlockViewController.m in Sources */,
-				DECD746F1E8E972D00B6B3EC /* ZJGesturePassword.m in Sources */,
 				DE6B0A5D1E9692D1002B6E82 /* DelegateViewController.m in Sources */,
+				DEAF3F1B1E9A042A00A63E18 /* ZJGesturePassword.m in Sources */,
 				DECD745A1E8E96E000B6B3EC /* AppDelegate.m in Sources */,
 				DECD74571E8E96E000B6B3EC /* main.m in Sources */,
 			);
